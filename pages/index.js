@@ -41,7 +41,7 @@ export default function Home() {
               <Grid container>
                 <Grid item>
                   <img
-                    src="/readifly-logo.svg"
+                    src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
                     width={80}
                     height={80}
                     className={styles.logo}
@@ -71,27 +71,47 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="travlojournal.svg" width={120} height={120} />
+          <img
+            src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/travlojournal.svg"
+            width={120}
+            height={120}
+          />
         </a>
         <a href="http://artoftalk.in" target="_blank" rel="noopener noreferrer">
-          <img src="artoftalk.svg" width={130} height={120} />
+          <img
+            src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/artoftalk.svg"
+            width={130}
+            height={120}
+          />
         </a>
         <a
           href="http://geeksocean.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="geeksocean.svg" width={90} height={120} />
+          <img
+            src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/geeksocean.svg"
+            width={90}
+            height={120}
+          />
         </a>
         <a href="http://vedifly.com" target="_blank" rel="noopener noreferrer">
-          <img src="vedifly.svg" width={130} height={120} />
+          <img
+            src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/vedifly.svg"
+            width={130}
+            height={120}
+          />
         </a>
         <a
           href="http://elitegamezone.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="elitegamezone.svg" width={150} height={120} />
+          <img
+            src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/elitegamezone.svg"
+            width={150}
+            height={120}
+          />
         </a>
       </div>
 

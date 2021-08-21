@@ -12,7 +12,7 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   background-color: rgb(26, 97, 233);
-  background-image: url("/screen3-bg.jpeg");
+  background-image: url("https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/screen3-bg.jpeg");
 }
 @media (max-width: 767px) {
   .screen1 {
@@ -23,7 +23,7 @@
     height: 55px;
   }
   .screen2 {
-    background-image: url("/screen3-bg.jpeg");
+    background-image: url("https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/screen3-bg.jpeg");
     background-position: right center;
     -webkit-box-pack: end;
     /* display: flex; */
