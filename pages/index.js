@@ -21,11 +21,20 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`http://www.readifly.com`} />
         <meta property="og:site_name" content={`Readifly Technologies`} />
-        <meta property="og:image" content={`/readifly-logo.svg`} />
-        <meta property="og:image:secure_url" content={`/readifly-logo.svg`} />
+        <meta
+          property="og:image"
+          content={`https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg`}
+        />
+        <meta
+          property="og:image:secure_url"
+          content={`https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg`}
+        />
         <meta property="og:image:type" content="image/jpg" />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
