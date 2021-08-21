@@ -19,15 +19,15 @@ export default function Home() {
           content="Virtual reading space for readers like you.More than 2,00,000 organic visitors till date."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`http://www.readifly.com`} />
-        <meta property="og:site_name" content={`Readifly Technologies`} />
+        <meta property="og:url" content="http://www.readifly.com" />
+        <meta property="og:site_name" content="Readifly Technologies" />
         <meta
           property="og:image"
-          content={`https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg`}
+          content="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
         />
         <meta
           property="og:image:secure_url"
-          content={`https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg`}
+          content="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
         />
         <meta property="og:image:type" content="image/jpg" />
 
@@ -36,7 +36,7 @@ export default function Home() {
           href="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
           rel="stylesheet"
@@ -62,7 +62,7 @@ export default function Home() {
               </Grid>
             </Grid>
             <Grid item>
-              <div className={styles.hiring}>We're hiring.</div>
+              <div className={styles.hiring}>We&apos;re hiring.</div>
             </Grid>
           </Grid>
         </div>
@@ -81,6 +81,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <img
+            alt="travlojournal"
             src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/travlojournal.svg"
             width={120}
             height={120}
@@ -88,6 +89,7 @@ export default function Home() {
         </a>
         <a href="http://artoftalk.in" target="_blank" rel="noopener noreferrer">
           <img
+            alt="artoftalk"
             src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/artoftalk.svg"
             width={130}
             height={120}
@@ -99,6 +101,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <img
+            alt="geeksocean"
             src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/geeksocean.svg"
             width={90}
             height={120}
@@ -106,6 +109,7 @@ export default function Home() {
         </a>
         <a href="http://vedifly.com" target="_blank" rel="noopener noreferrer">
           <img
+            alt="vedifly"
             src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/vedifly.svg"
             width={130}
             height={120}
@@ -117,6 +121,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <img
+            alt="elitegamezone"
             src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/elitegamezone.svg"
             width={150}
             height={120}
@@ -126,7 +131,7 @@ export default function Home() {
 
       <main className={styles.screen2}>
         <div className={styles.tagline2}>we take your interest seriously.</div>
-        <div className={styles.tagline3}>so that you don't worry.</div>
+        <div className={styles.tagline3}>so that you don&apos;t worry.</div>
         <div className={styles.description}>
           every genre you love, health & lifestyle, public speaking, gaming,
           travelling, science, fashion and many more.
