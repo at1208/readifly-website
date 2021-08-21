@@ -50,7 +50,7 @@ export default function Home() {
               <Grid container>
                 <Grid item>
                   <img
-                    src="https://readifly.sfo3.cdn.digitaloceanspaces.com/readifly/readifly-logo.svg"
+                    src="https://readifly.sfo3.cdn.digitaloceanspaces.com/bw%20readifly.svg"
                     width={80}
                     height={80}
                     className={styles.logo}
